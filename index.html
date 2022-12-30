@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/styles.css">
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+
+        <!-- search start-->
+
+        <div class="search">
+          <form action="get_search" class="searching">
+            <div class="pole">
+              <input type="search" placeholder="Aktobe" class="input_searching">
+            </div>
+            <div class="button">
+              <input type="button" class="submit_search">
+            </div>
+          </form>
+        </div>
+
+        <!-- search end-->
+
+        <div class="wrapper__column">
+
+        <!-- information start-->
+          <div class="view">
+            <div class="big_view">
+              <div class="degree">
+                <p class="degree__now">
+                  14&#xb0;
+                </p>
+              </div>
+              <div class="weather-ico">
+                <img src="./img/svg/cloud-ico.svg" alt="weather-ico">
+              </div>
+              <div class="plase">
+                <p class="city">Aktobe</p>
+              
+                <div class="favorite">
+                  <a href="!#">
+                  <img src="./img/svg/like-ico.svg" alt="favorite">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tabs">
+              <button class="tab">
+                Now
+              </button>
+              <button class="tab">
+                Details
+              </button>
+              <button class="tab">
+                Forecast
+              </button>
+            </div>
+          </div>
+
+          <!-- information end-->
+
+          <!-- locations start-->
+          <div class="added__all">
+            <div class="added"><p>Added Locations:</p></div>
+            <div class="locations">
+              <div class="list__loc">
+                <ol>
+                  <li><a href="!#">Amur</a></li>
+                  <li><a href="!#">Samara</a></li>
+                  <li><a href="!#">Bali</a></li>
+                  <li><a href="!#">Dane</a></li>
+                  <li><a href="!#">Kilo</a></li>
+                  <li><a href="!#">Nur-Sultan</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <!-- locations end-->
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>
